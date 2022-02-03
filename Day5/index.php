@@ -67,7 +67,7 @@
 
 <div class="container" style="margin-top:30px">
   <div class="col-md-6" style="margin:auto; background-color: aquamarine;">
-    <h2>Login Form</h2>
+    <h2>ลงชื่อเข้าใช้</h2>
 
     <form action="login_pr.php" method="post" >
       <div class="imgcontainer ">
@@ -75,11 +75,11 @@
       </div>
 
       <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="uname"><b>ชื่อผู้ใช้</b></label>
+        <input type="text" placeholder="ป้อนชื่อผู้ใช้" name="uname" required>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="psw"><b>รหัสผ่าน</b></label>
+        <input type="password" placeholder="ป้อนรหัสผ่าน" name="psw" required>
             
         <button type="submit">Login</button>
         
